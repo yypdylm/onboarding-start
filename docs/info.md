@@ -9,12 +9,14 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project receives settings from an external device using SPI.
+The settings are used to control 16 outputs.
+Each output can either stay on/off or use PWM.
 
 ## How to test
 
-Explain how to use your project
+Run the Cocotb tests to check if the SPI and PWM parts work correctly.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware is required.
